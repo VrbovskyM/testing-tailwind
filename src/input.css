@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ .btn {
+    @apply w-fit h-fit m-20 rounded-md bg-blue-700 p-3 text-xl text-gray-200  drop-shadow-lg hover:bg-blue-600;
+  }
